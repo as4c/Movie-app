@@ -1,0 +1,308 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 140px;
+  width: 100%;
+  color: #ffffff;
+  background: #292929;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.metflix-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ffffff;
+  font-size: 16.001px;
+  height: 60px;
+  width: 193px;
+  position: absolute;
+  left: 77px;
+  top: 40px;
+  border-radius: 0px;
+}
+
+.navbar-title {
+  font-size: 16.001px;
+  color: #ffffff;
+}
+.nav-auth-link{
+  display: flex;
+  right : 77px;
+  position: absolute;
+  top:58px;
+  font-size: 16.001px;
+  align-items: center;
+}
+.nav-link{
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  margin: 5px;
+}
+.nav-link:hover{
+  color : rgb(121, 6, 77)
+}
+.navigation-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 550px;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 138px;
+  background: url("https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lidwxp4yh2qttgw2eduv.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.watch-something {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  height: 282px;
+  width: 490px;
+  position: absolute;
+  left: 77px;
+  top: 109px;
+}
+
+.movie-text {
+  color: #ffffff;
+  font-family: DM Sans;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 94px;
+  letter-spacing: -0.05em;
+  text-align: left;
+}
+
+
+/* Media Query iPad Pro 11 */
+@media screen and (max-width: 834px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    width: 100%;
+    color: #ffffff;
+    background: #292929;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .metflix-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ffffff;
+    font-size: 16.001px;
+    height: 60px;
+    width: 193px;
+    position: absolute;
+    left: 321px;
+    top: 40px;
+    border-radius: 0px;
+  }
+
+  .navbar-title {
+    font-size: 16.001px;
+    color: #ffffff;
+  }
+
+  .navigation-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 550px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 138px;
+    background: url("https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lidwxp4yh2qttgw2eduv.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  }
+
+  .watch-something {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 282px;
+    width: 490px;
+    position: absolute;
+    left: 172px;
+    top: 109px;
+  }
+
+  .movie-text {
+    color: #ffffff;
+    font-family: DM Sans;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 94px;
+    letter-spacing: -0.05em;
+    text-align: center;
+  }
+}
+
+/* Media Query Mobile Devices */
+@media only screen and (min-width: 376px) and (max-width: 679px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 67px;
+    width: 100%;
+    color: #ffffff;
+    background: #292929;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .metflix-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ffffff;
+    font-size: 16.001px;
+    height: 33.58px;
+    width: 108px;
+    position: absolute;
+    left: 107px;
+    top: 16px;
+    border-radius: 0px;
+  }
+
+  .navbar-title {
+    font-size: 16.001px;
+    color: #ffffff;
+  }
+
+  .navigation-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 257px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 67px;
+    background: url("https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lidwxp4yh2qttgw2eduv.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  }
+
+  .watch-something {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+    width: 273px;
+    position: absolute;
+    left: 23px;
+    top: 98px;
+  }
+
+  .movie-text {
+    color: #ffffff;
+    font-family: DM Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36.46px;
+    letter-spacing: -0.05em;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 67px;
+    width: 100%;
+    color: #ffffff;
+    background: #292929;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .metflix-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ffffff;
+    font-size: 16.001px;
+    height: 33.58px;
+    width: 108px;
+    position: absolute;
+    left: 107px;
+    top: 16px;
+    border-radius: 0px;
+  }
+
+  .navbar-title {
+    font-size: 16.001px;
+    color: #ffffff;
+  }
+
+  .navigation-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 257px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 67px;
+    background: url("https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lidwxp4yh2qttgw2eduv.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  }
+
+  .watch-something {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+    width: 273px;
+    position: absolute;
+    left: 23px;
+    top: 98px;
+  }
+
+  .movie-text {
+    color: #ffffff;
+    font-family: DM Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36.46px;
+    letter-spacing: -0.05em;
+    text-align: center;
+  }
+}
