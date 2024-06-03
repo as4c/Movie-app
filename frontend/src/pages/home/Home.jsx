@@ -9,6 +9,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { getFavoourite } from "../../utils/api";
 import { addToFavouriteFailure, addToFavouriteSuccess, fetchListFailure, fetchListSuccess } from "../../store/favouriteSlice";
 import { convert, prepareData, serializeData } from "../../utils";
+import { SearchBox } from "../../components/Search/SearchInput";
 
 
 
@@ -101,7 +102,8 @@ const Home = () => {
     return (
         <div className="App">
             <div className="movie-container">
-                <NavBar searchValue={searchValue} setSearchValue={setSearchValue} />
+                {/* <NavBar searchValue={searchValue} setSearchValue={setSearchValue} /> */}
+                <SearchBox searchValue={searchValue} setSearchValue={setSearchValue} />
                 {
                     searchValue !== "" && 
                     <div className="movie-set">

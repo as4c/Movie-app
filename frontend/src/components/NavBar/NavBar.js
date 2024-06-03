@@ -22,7 +22,7 @@ const NavBar = ({ searchValue, setSearchValue }) => {
             {
               isAuthenticated ? (
                 <>
-                <Link to={`/favourite`} className="nav-link">Favourites</Link>
+                <Link to={`/favourites`} className="nav-link">Favourites</Link>
                 <li className="nav-link" onClick={Logout}>Logout</li>
                 </>
               ) :
@@ -45,7 +45,7 @@ const NavBar = ({ searchValue, setSearchValue }) => {
         </div>
       </div>
 
-      <SearchBox searchValue={searchValue} setSearchValue={setSearchValue} />
+      {/* <SearchBox searchValue={searchValue} setSearchValue={setSearchValue} /> */}
     </header>
   );
 };
